@@ -424,7 +424,7 @@ function App() {
                       Email
                     </h3>
                     <p className="text-[var(--color-text-muted)]">
-                      ahmadfakih15@gmail.com
+                      ahmadfakih4368@gmail.com
                     </p>
                   </div>
                 </div>
