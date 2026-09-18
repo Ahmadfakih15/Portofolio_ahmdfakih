@@ -928,6 +928,74 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* Project Card 7 */}
+            <div className="glass-card overflow-hidden group md:col-span-2 lg:col-span-1">
+              <div className="h-48 relative overflow-hidden bg-gray-800">
+                <img
+                  src="/images/projek.7.jpeg"
+                  alt="Project 7"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-overlay)] to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-2.5 py-1 bg-black/40 backdrop-blur-md rounded-md text-xs font-medium text-white border border-white/20">
+                    Drawing
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[var(--color-text-main)] mb-2 group-hover:text-primary transition-colors">
+                  Drawing Sistem Perindustrian.
+                </h3>
+                <p className="text-sm text-[var(--color-text-muted)] mb-4 line-clamp-2 transition-colors">
+                  Perancangan Sistem Distribusi tenaga Listrik Saru Garis(Single
+                  Line Diagram) Dari Gardu PLNMenuju LVMDB.
+                </p>
+                <div className="flex gap-2">
+                  <a
+                    href="#"
+                    className="w-8 h-8 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] flex items-center justify-center text-[var(--color-text-muted)] hover:text-primary hover:bg-[var(--color-surface-hover)] transition-all"
+                  >
+                    <Github size={14} />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project Card 8 */}
+            <div className="glass-card overflow-hidden group md:col-span-2 lg:col-span-1">
+              <div className="h-48 relative overflow-hidden bg-gray-800">
+                <img
+                  src="/images/projek.8.jpeg"
+                  alt="Project 8"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-overlay)] to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-2.5 py-1 bg-black/40 backdrop-blur-md rounded-md text-xs font-medium text-white border border-white/20">
+                    Panel Kontrol
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-[var(--color-text-main)] mb-2 group-hover:text-primary transition-colors">
+                  Perakitan Panel Kontrol Motor (Assembling Panel Distribusi)
+                </h3>
+                <p className="text-sm text-[var(--color-text-muted)] mb-4 line-clamp-2 transition-colors">
+                  Perakitan (Assembling) Panel Kontrol LIstrik Industri
+                  Menggunakan Komponen Kontaktor dan sistem Proteksi
+                </p>
+                <div className="flex gap-2">
+                  <a
+                    href="#"
+                    className="w-8 h-8 rounded-full bg-[var(--color-surface)] border border-[var(--color-border)] flex items-center justify-center text-[var(--color-text-muted)] hover:text-primary hover:bg-[var(--color-surface-hover)] transition-all"
+                  >
+                    <Github size={14} />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
